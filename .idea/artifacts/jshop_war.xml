@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jshop:war">
+    <output-path>$PROJECT_DIR$/jsop/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jshop-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jshop:war exploded" />
+    </root>
+  </artifact>
+</component>
